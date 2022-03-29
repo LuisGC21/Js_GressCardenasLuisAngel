@@ -22,3 +22,8 @@ function division(){
     var resultado = valor1 / valor2;
     document.getElementById('reultado').value = resultado;
 }
+function limpiar(){
+    document.getElementById('reultado').value = "";
+    document.getElementById('numero1').value = "";
+    document.getElementById('numero2').value = "";
+}
