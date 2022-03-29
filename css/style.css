@@ -1,0 +1,59 @@
+nav{
+    background-color: #3131e4;
+    display: flex;
+    justify-content: center;
+}
+li{
+    display: inline;
+    margin-left: 100px;
+    margin-right: 100px;
+    list-style: none;
+}
+a{
+    padding: 15px;
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #a6a6f1;
+}
+h2{
+    text-align: center;
+    color: #3131e4;
+}
+.contenedor-suma, .contenedor-resta, .contenedor-multiplicacion, .contenedor-division{
+    background-color:rgb(187, 103, 103) ;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 25px;
+    border-radius: 20px;
+
+}
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    background-color: #5d5daf;
+    margin: 10px;
+    padding: 15px;
+}
+.boton:hover{
+    cursor: pointer;
+    background-color: #3131e4;
+    color: white;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    background-color: #5d5daf;
+    padding: 25px;
+}
